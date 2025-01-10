@@ -44,6 +44,9 @@
         color: #2c2c2c;
         border: none;
   }
+  .header-order-btn:hover{
+    background: #ffe450;
+  }
 }
 @media screen and (min-width: 1280px){
   .header-logo{
