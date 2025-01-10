@@ -1,19 +1,32 @@
 <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="header-wrapper">
+      <svg class="header-logo" width="66" height="52">
+        <use href="img/sprite.svg#icon-logo"></use>
+      </svg>
+      <svg class="header-burger-btn" width="28" height="28">
+        <use href="img/sprite.svg#icon-burger"></use>
+      </svg>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item">
+            <a class="header-nav-list-item-link" href="#">Home</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-list-item-link" href="#">About</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-list-item-link" href="#">Service</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-list-item-link" href="#">Menu</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-list-item-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header-order-btn">Order now</button>
+    </div>
   </div>
 </header>
