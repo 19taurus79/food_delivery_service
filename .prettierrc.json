@@ -6,5 +6,9 @@
   "trailingComma": "es5",
   "bracketSpacing": true,
   "arrowParens": "avoid",
-  "proseWrap": "always"
+  "proseWrap": "always",
+  "editor.formatOnSave": true,
+  "editor.formatOnBlur": true,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnSaveTimeout": 750
 }
