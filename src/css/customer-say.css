@@ -1,0 +1,67 @@
+.customer-say-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: #2c2c2c;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.customer-say-description {
+  font-weight: 400;
+  font-size: 14px;
+  color: #2c2c2c;
+  padding-bottom: 32px;
+}
+.customer-say {
+  background-color: #ffe550;
+}
+
+.customer-say-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.customer-say-item {
+  min-width: 280px;
+  min-height: 247px;
+  background-color: #fff;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.stars-block {
+  display: flex;
+  gap: 4px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.customer-say-text {
+  font-weight: 700;
+  font-size: 16px;
+  color: #2c2c2c;
+  margin: 28px 8px 40px 8px;
+}
+
+.customer-say-author {
+  display: flex;
+  margin: 0 0 8px 8px;
+  gap: 16px;
+}
+.customer-say-img {
+  width: 48px;
+  height: 48px;
+}
+.customer-say-name {
+  width: 94px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  border-right: 0.85px solid #7eb101;
+}
+.customer-say-name-span-bold {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
